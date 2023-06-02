@@ -1,4 +1,4 @@
-#PacMan
+# PacMan
 
 Pacman é um jogo muito conhecido, onde o personagem tenta comer a maior quantidade possível de bolinhas, tendo ao mesmo tempo que fugir de vários fantasmas. Dessa vez, nosso personagem quer carregar a comida coletada para casa, mas o encontro com um fantasma, ao invés de terminar o jogo, faz com que toda a comida coletada seja roubada.
 
@@ -13,25 +13,27 @@ Infelizmente, Pacman não pode ignorar os comandos do usuário para fugir dos fa
 Você deve escrever um programa que determine a maior quantidade de comida que o Pacman pode levar, se escolher a melhor hora possível para sair. Note que o jogador também tem a opção de não sair antes do final do jogo.
 
 
-##Entrada
+## Entrada
 A primeira linha contém um inteiro N, o tamanho do tabuleiro do jogo, que é quadrado. Cada uma das N linhas seguintes contém N caracteres, que podem ser (aspas para melhor clareza):
 
 ‘.’ um espaço vazio;
 ‘o’ uma comida;
 ‘A’ um fantasma.
 
-##Saída
+## Saída
 Seu programa deve produzir uma única linha contendo um único inteiro, a quantidade máxima de comida que o Pacman pode levar para casa.
 
 
-##Restrições
+## Restrições
 2 ≤ N ≤ 100
 Não há um fantasma e uma comida na mesma posição.
 Não há fantasma nem comida na posição inicial do Pacman (ou seja, o primeiro caractere da primeira linha do tabuleiro é ‘.’).
 
 
-##Exemplos
+## Exemplos
+
 Entrada
+
 5
 .ooo.
 ..ooA
@@ -40,10 +42,13 @@ Aoooo
 ..ooo
 
 Saída
+
 6
 
 Entrada
+
 3
+
 .o.
 oAA
 ooo
