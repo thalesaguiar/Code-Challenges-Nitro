@@ -35,6 +35,7 @@ Não há fantasma nem comida na posição inicial do Pacman (ou seja, o primeiro
 Entrada
 
 5
+
 .ooo.
 ..ooA
 ..Aoo
@@ -52,3 +53,7 @@ Entrada
 .o.
 oAA
 ooo
+
+Saída
+
+4
